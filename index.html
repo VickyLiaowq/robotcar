@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello RobotCar</title>
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #38bdf8;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #38bdf8;
+            border-radius: 10px;
+            background: rgba(15, 23, 42, 0.8);
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            animation: blink 1.5s infinite;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+        .code {
+            color: #34d399;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎂 Happy Birthday 33rd! </h1>
+        <p>>>> [System Initialization Success]</p>
+        <div class="code">亲爱的老公，生日快乐！</div>
+        <p style="margin-top: 15px; font-size: 1rem; color: #64748b;">
+            你的专属自动驾驶副业航线 robotcar.dev 已成功上线。<br>
+            服务器运行正常。期待田总写出第一行改变世界的代码！
+        </p>
+    </div>
+</body>
+</html>
